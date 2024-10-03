@@ -1,0 +1,13 @@
+# *****************************************
+# Lab Activity 3: Exercise 1              *
+# Programmed by: FATIMA LENIN F. PALMON   *
+# Course and Section: BSCpE 2-3           *
+# Instructor: ENGR. GODOFREDO T. AVENA    *
+# Date Submitted: October 3, 2024         *
+# *****************************************
+
+list = [2, 4, 3]
+
+result = [x**2 for x in list if x % 2 != 0]
+
+print(result)
