@@ -1,0 +1,16 @@
+# *****************************************
+# Lab Activity 3: Exercise 3              *
+# Programmed by: FATIMA LENIN F. PALMON   *
+# Course and Section: BSCpE 2-3           *
+# Instructor: ENGR. GODOFREDO T. AVENA    *
+# Date Submitted: October 3, 2024         *
+# *****************************************
+
+def vowelsToUpper(s: str) -> str:
+
+    vowels = 'aeiouAEIOU'
+    return ''.join([char.upper() if char in vowels else char for char in s])
+
+print(vowelsToUpper("=="))  
+print(vowelsToUpper("Hello, world!"))  
+print(vowelsToUpper("hello hi bye"))  
